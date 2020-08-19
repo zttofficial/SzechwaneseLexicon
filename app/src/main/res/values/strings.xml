@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Szechwanese Lexicon</string>
+    <string name="retrieve">查詢</string>
 </resources>
