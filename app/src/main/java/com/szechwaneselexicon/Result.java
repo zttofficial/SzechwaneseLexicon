@@ -36,8 +36,8 @@ public class Result extends AppCompatActivity {
         }
 
         result.setText(message);
-        Paraphrase.setText(paraphraseResult);
-        Tone.setText(toneResult);
+        Paraphrase.setText("釋義："+paraphraseResult);
+        Tone.setText("讀音："+toneResult);
         //System.out.print(paraphraseResult);
         //System.out.print(message);
         cursor.close();
