@@ -25,7 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="8c89dacb-e98f-476c-83f9-040009b3b0dd">
-        <schema name="main" object-types="view, table" />
+        <schema name="main" object-types="table, dataset trigger, index, constraint, view, column" />
       </connection>
     </loaded-nodes>
   </component>
@@ -41,7 +41,7 @@
     <connection id="8c89dacb-e98f-476c-83f9-040009b3b0dd" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="8c89dacb-e98f-476c-83f9-040009b3b0dd" dataset="main.lexicon" active-filter-id="ea8febb6-69b7-4afe-938b-392ce4f59b6b">
+    <filter-actions connection-id="8c89dacb-e98f-476c-83f9-040009b3b0dd" dataset="main.lexicon" active-filter-id="EMPTY_FILTER">
       <filter id="ea8febb6-69b7-4afe-938b-392ce4f59b6b" name="在" temporary="false" custom-name="false" type="basic" join-type="AND">
         <condition column="character" operator="=" value="在" active="true" />
       </filter>
