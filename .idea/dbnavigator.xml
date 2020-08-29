@@ -25,7 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="8c89dacb-e98f-476c-83f9-040009b3b0dd">
-        <schema name="main" object-types="table, dataset trigger, index, constraint, view, column" />
+        <schema name="main" object-types="view, constraint, column, table, dataset trigger, index" />
       </connection>
     </loaded-nodes>
   </component>
@@ -35,7 +35,9 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="8c89dacb-e98f-476c-83f9-040009b3b0dd" object-ref="schemas/main/tables/lexicon" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="8c89dacb-e98f-476c-83f9-040009b3b0dd" />
