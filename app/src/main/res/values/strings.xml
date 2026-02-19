@@ -1,4 +1,19 @@
 <resources>
-    <string name="app_name">Szechwanese Lexicon</string>
+    <string name="app_name">四川話詞典</string>
+    <string name="app_name_full">四川話正音字典</string>
     <string name="retrieve">查詢</string>
+    <string name="search">搜索</string>
+    <string name="input_hint">請輸入要查詢的字詞</string>
+    <string name="input_example">例如：巴適、雄起</string>
+    <string name="welcome_msg">歡迎使用四川話詞典</string>
+    <string name="tip_title">使用提示</string>
+    <string name="tip_content">• 請使用繁體中文輸入\n• 支持單字和詞語查詢\n• 點擊查詢按鈕顯示結果</string>
+    
+    <!-- 結果頁面 -->
+    <string name="result_title">查詢結果</string>
+    <string name="word_label">詞條</string>
+    <string name="pronunciation_label">讀音</string>
+    <string name="definition_label">釋義</string>
+    <string name="no_result">未找到相關詞條</string>
+    <string name="back">返回</string>
 </resources>

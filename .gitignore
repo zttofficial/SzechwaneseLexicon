@@ -13,3 +13,7 @@
 .externalNativeBuild
 .cxx
 /.idea/
+
+app/src/main/assets/fonts/*.otf
+app/src/main/assets/fonts/*.ttf
+app/src/main/assets/fonts/*.ttc

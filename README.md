@@ -7,5 +7,3 @@ In the future we will combine different comments provided by scholars. Because t
 
 Or get it on [Releases menu.](https://github.com/zttofficial/SzechwaneseLexicon/releases) It's a good choice especilly in sometime Play vesion cannot work or under review.
 
-# TODO
-Some special characters(located in Unicode CJK area) cannot be found.

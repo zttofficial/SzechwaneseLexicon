@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <!-- 四川红（川剧脸谱红） -->
+    <color name="colorPrimary">#D32F2F</color>
+    <color name="colorPrimaryDark">#B71C1C</color>
+    <color name="colorPrimaryLight">#FFCDD2</color>
+    
+    <!-- 金黄色（川剧金色） -->
+    <color name="colorAccent">#FFA000</color>
+    <color name="colorAccentLight">#FFD54F</color>
+    
+    <!-- 背景色 -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surfaceVariant">#F5F5F5</color>
+    
+    <!-- 文字颜色 -->
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="textHint">#BDBDBD</color>
+    
+    <!-- 其他颜色 -->
+    <color name="divider">#E0E0E0</color>
+    <color name="error">#B00020</color>
+    
+    <!-- 渐变色 -->
+    <color name="gradient_start">#D32F2F</color>
+    <color name="gradient_end">#FFA000</color>
 </resources>

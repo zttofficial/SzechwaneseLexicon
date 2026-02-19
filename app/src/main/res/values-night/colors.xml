@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 四川红（川剧脸谱红） - 夜间模式下稍微柔和 -->
+    <color name="colorPrimary">#EF5350</color>
+    <color name="colorPrimaryDark">#C62828</color>
+    <color name="colorPrimaryLight">#FFCDD2</color>
+    
+    <!-- 金黄色（川剧金色） -->
+    <color name="colorAccent">#FFB300</color>
+    <color name="colorAccentLight">#FFD54F</color>
+    
+    <!-- 背景色 - 深色 -->
+    <color name="background">#121212</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="surfaceVariant">#2C2C2C</color>
+    
+    <!-- 文字颜色 - 深色模式 -->
+    <color name="textPrimary">#E0E0E0</color>
+    <color name="textSecondary">#B0B0B0</color>
+    <color name="textHint">#757575</color>
+    
+    <!-- 其他颜色 -->
+    <color name="divider">#404040</color>
+    <color name="error">#CF6679</color>
+    
+    <!-- 渐变色 -->
+    <color name="gradient_start">#EF5350</color>
+    <color name="gradient_end">#FFB300</color>
+</resources>
