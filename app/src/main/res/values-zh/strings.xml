@@ -1,6 +1,6 @@
 <resources>
-    <!-- App name (matches Google Play Store) -->
-    <string name="app_name">Szechwanese Lexicon</string>
+    <!-- 繁體中文應用名稱 -->
+    <string name="app_name">四川話詞典</string>
     <string name="app_name_full">四川話正音字典</string>
     <string name="retrieve">查詢</string>
     <string name="search">搜索</string>
@@ -18,10 +18,10 @@
     <string name="no_result">未找到相關詞條</string>
     <string name="back">返回</string>
     
-    <!-- About -->
+    <!-- 關於應用 -->
     <string name="credits">Credits</string>
-    <string name="about_title">About</string>
-    <string name="app_description">A pronunciation dictionary for Szechwanese (Chengdu-Chongqing dialect), integrating sources including the Dictionary of Sichuan Dialect published by Sichuan People\'s Publishing House. The app uses Traditional Chinese to ensure academic rigor.\n\nSpecial thanks to the Macao Research Society of Dialect in Greater China for their support.</string>
+    <string name="about_title">關於本應用</string>
+    <string name="app_description">一本針對四川話（成渝片）的正音字典，使用了四川人民出版社《四川方言詞典》等多項來源整合，全應用基於繁體中文以確保學術性。\n\n感謝澳門大中華區方言研學會 (Macao Research Society of Dialect in Greater China) 提供的支持。</string>
     <string name="org_website">https://dialect.zttofficial.com/</string>
-    <string name="visit_website">Visit Website</string>
+    <string name="visit_website">訪問官網</string>
 </resources>

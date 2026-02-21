@@ -1,4 +1,4 @@
-# SzechwaneseLexicon
+# Szechwanese Lexicon
 A lexicon for standard (Chengdu-Chongqing dialect) Szechwanese.
 
 In the future we will combine different comments provided by scholars. Because the existing pinyin scheme is not a version that can be read by the general public.

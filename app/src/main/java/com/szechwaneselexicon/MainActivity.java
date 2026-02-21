@@ -1,9 +1,11 @@
 package com.szechwaneselexicon;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -18,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "com.SzechwaneseLexicon.MESSAGE";
     private TextInputEditText inputEditText;
     private MaterialButton searchButton;
+    private MaterialButton creditButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         inputEditText = findViewById(R.id.type);
         searchButton = findViewById(R.id.retrieve);
+        creditButton = findViewById(R.id.creditButton);
 
         searchButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,6 +50,28 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        
+        creditButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showCreditsDialog();
+            }
+        });
+    }
+    
+    /**
+     * 顯示關於對話框
+     */
+    private void showCreditsDialog() {
+        new AlertDialog.Builder(this)
+            .setTitle(R.string.about_title)
+            .setMessage(R.string.app_description)
+            .setPositiveButton(R.string.visit_website, (dialog, which) -> {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.org_website)));
+                startActivity(browserIntent);
+            })
+            .setNegativeButton(android.R.string.ok, null)
+            .show();
     }
     
     /**
