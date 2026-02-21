@@ -18,3 +18,4 @@ app/src/main/assets/fonts/*.otf
 app/src/main/assets/fonts/*.ttf
 app/src/main/assets/fonts/*.ttc
 upload_certificate.pem
+app/release/app-release.aab
